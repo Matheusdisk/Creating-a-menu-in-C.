@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<stdlib.h>
+  int main(void){
+      printf("Welcome to my program!!!\n");
+      printf("\n");
+      printf("English:\n");
+      printf("The information contained in this program is true, to contact us use this information.\n");
+      printf("\n");
+      printf("Portuguese:\n");
+      printf("As informações contidas neste programa são verdadeiras, para entrar em contato use estas informacoes.\n");
+  int counter=1;
+  int answer;
+while(counter<=5){
+    printf("\n");
+      printf("Enter the chosen option:\n");
+      printf("\n");
+      printf("------------------------------------\n");
+      printf("\n");
+      printf("1- To show the my phone number.\n");
+      printf("2- To show my e-mail.\n");
+      printf("3- to show my University graduate.\n");
+      printf("\n");
+      printf("------------------------------------\n");
+      printf("\n");
+      scanf("%i",&answer);
+switch(answer){
+  case 1 :
+      printf("\nMy number: +55 019 99170-1606\n");
+  break;
+  
+  case 2 :
+      printf("\nMy e-mail: matheuscruzhenrique@hotmail.com\n");
+  break;
+  
+  case 3 :
+      printf("\nMy University graduate: Information Security in Fatec Americana, Sao Paulo - Brazil.\n");
+  break;
+  
+  default :
+      printf("\n!!!!!Value Incorrect, try again please!!!!!\n");
+  
+      printf("------------------------------------\n");
+}
+  counter++;
+}
+  return 0;
+}  
